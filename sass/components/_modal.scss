@@ -58,13 +58,15 @@
   letter-spacing: 0.03em;
   color: #212121;
 }
-.modal-form-label:not(:last-child) {
-  margin-bottom: 28px;
-}
+
 .modal-form-label {
   position: relative;
   display: flex;
   align-items: center;
+
+  &:not(:last-child) {
+    margin-bottom: 28px;
+  }
 }
 .modal-form-input {
   width: 100%;

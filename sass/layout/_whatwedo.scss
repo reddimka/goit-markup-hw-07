@@ -12,13 +12,15 @@
 .box-list {
   display: flex;
 }
-.box-list-item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .box-list-item {
   width: 370px;
   height: 294px;
   position: relative;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .description-made {
   font-weight: bold;

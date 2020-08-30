@@ -22,9 +22,6 @@
 .social-link-list-item:not(:last-child) {
   margin-right: 10px;
 }
-.team-list-item:not(:last-child) {
-  margin-right: 30px;
-}
 .team-list-item {
   width: 270px;
   height: 422px;
@@ -32,6 +29,10 @@
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .social-link-list .social-link {
   display: flex;
@@ -80,8 +81,8 @@
   border-radius: 4px;
   width: 170px;
   height: 90px;
-}
-.customer-link:hover {
+
+  &:hover {
   border-color: $hover-color;
 }
 .clients-list {
